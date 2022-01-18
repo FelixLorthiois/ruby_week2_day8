@@ -8,8 +8,12 @@ def ask_first_name
   return gets.chomp
 end
 
-first_name = ask_first_name
-say_hello(first_name)
+def perform
+  first_name = ask_first_name
+  say_hello(first_name)
+end
+
+perform
 
 
 

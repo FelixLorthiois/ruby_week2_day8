@@ -72,9 +72,13 @@ def build_pyramid(type,nb_floors)
   end
 end
 
-# Perform
-type = ask_pyramid_type
-nb_floors = ask_nb_floors(type)
-build_pyramid(type,nb_floors)
+def perform
+  type = ask_pyramid_type
+  nb_floors = ask_nb_floors(type)
+  build_pyramid(type,nb_floors)
+end
+
+perform
+
 
 

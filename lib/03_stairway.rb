@@ -59,7 +59,7 @@ end
 #Option 1: faire une partie
 #perform
 
-#Option 2: nombre de tours moyen sur 100 parties
+#Option 2: Calculer le nombre de tours moyen sur 100 parties
 average_finish_time
 
 
